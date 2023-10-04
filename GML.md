@@ -11,4 +11,3 @@ Es un archivo de texto plano en estructura aninada conforme al estándar XML y e
             <localId>1907401VK4810H</localId>
             <namespace>ES.SDGC.CP</namespace>
             </Identifier>
-https://www.catastro.minhafp.es/asistente_catreg/img/GML.pdf
