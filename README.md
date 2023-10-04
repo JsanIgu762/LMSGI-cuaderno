@@ -8,6 +8,7 @@
 
 ## Evolución de los lenguajes de marcas
 * [GML](GML.md)
+* [SGML](SGML.md)
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
