@@ -4,6 +4,7 @@
 * ### Evolución de los lenguajes de marcas
 * ### Características de los lenguajes de marcas
 * ### Ejemplos y características de diferentes lenguajes de marcas
+* ### XML: definición y caracteristicas del metalenguaje
 
 ## ¿Qué es un lenguaje de marcas?
 * Un lenguaje de marcas, es aquel que permite representar información que contiene, además de los datos, marcas o etiquetas que indican cómo se estructuran estos datos, su significado o cómo debe representar desde un punto de vista gráfico y visual.
@@ -24,6 +25,74 @@
 * [JSON](JSON.md)
 * [YAML](YAML.md)
 
+## XML: definición y caracteristicas del metalenguaje
+### Prólogo
+El prólogo de un documento XML tiene la siguiente estuctura.
+``` XML
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+```
+Aunque no es obligatorio indica informacion relativa al propio documento.
+
+Puede contener los siguientes elementos:
+* **version**: indica la versión de XML que estamos usando.
+* **encoding**: indica la codificación escrita en el documento
+* **standalone**:  indica la existencia de un esquema XML(DTD) en el propio documento o externo.
+### Etiquetas
+En un lenguaje de marcas se pueden econtrar unas etiquetas
+* Una etiqueta en XML debe tener un inicio y un final que será una palabra entre los símbolos "<" ">"
+* Siempre debe haber una etiqueta de cierre "</"
+* Las etiquetas pueden tener atributos.
+* Un elemento es el par de etiqueta de apertura y de cierre.
+* Dentro de un elemento puede encontrarse texto u otros elementos.
+* En un documento XML solo puede haber un elemento raiz.
+* Pueden añadirse comentarios entre los símbolos ```<!-- y -->```.
+### Atributos
+En una etiqueta XML puede encontrarse atributos.
+* Un atributo en XML, es una información adicional que se le da a una etiqueta en concreto
+* Comienza con una palabra, seguido del símbolo "=" y la información entre comillas dobles "".
+* Una etiqueta puede tener 0 o más atributos.
+* Cada atributo tendrá solo información, no puede como contener como tal otros atributos.
+### Ejemplos de XML
+``` XML
+<pizzas>
+    <pizza nombre="Barbacoa" precio="8">
+        <ingrediente nombre="Salsa Barbacoa"/>
+        <ingrediente nombre="Mozzarella"/>
+        <ingrediente nombre="Pollo"/>
+        <ingrediente nombre="Bacon"/>
+        <ingrediente nombre="Ternera"/>
+    </pizza>
+    <pizza nombre="Margarita" precio="6">
+        <ingrediente nombre="Tomate"/>
+        <ingrediente nombre="Jamón"/>
+        <ingrediente nombre="Queso"/>
+    </pizza>
+</pizzas>
+```
+``` XML
+<poema fecha="Abril de 1915" lugar="Granada">
+    <titulo>Alba</titulo>
+    <verso>Mi corazón oprimido</verso>
+    <verso>late junto a la alborada</verso>
+    <verso>el dolor de sus amores...</verso>
+</poema>
+```
+``` XML
+<recetas>
+    <receta>
+        <tipo definicion="postre"/>
+        <dificultad>Fácil</dificultad>
+        <nombre>Tarta de chocolate</nombre>
+    </recetas>
+    <ingredientes>
+        <ingrediente nombre="Cola-Cao" cantidad="250 gramos"/>
+        <ingrediente nombre="mantequilla" cantidad="200 gramos"/>
+        <ingrediente nombre="harina" cantidad="1 vaso"/>
+        <ingrediente nombre="azúcar" cantidad="1 vaso"/>
+        <ingrediente nombre="huevos" cantidad="3"/>
+    </ingredientes>
+</recetas>
+```
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
