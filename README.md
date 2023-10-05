@@ -13,7 +13,7 @@
 * [GML](GML.md)
 * [SGML](SGML.md)
 ## Características de los lenguajes de marcas
-* ***Uso del texto plano**: Al ser un texto plano cualquier persona puede leer y editar esa información.
+* **Uso del texto plano**: Al ser un texto plano cualquier persona puede leer y editar esa información.
 * Es un **lenguaje compacto**: Las etiquetas de marcas se mezclan con el contenido del mismo.
 * **Independencia del dispositivo**: Al ser independiente del dispositivo nos permite mostrar el contenido.
 * **Facilidad de procesamiento**: Permite el desarrollo de lenguajes especializadas según el tipo de documento que necesitemos procesar.
