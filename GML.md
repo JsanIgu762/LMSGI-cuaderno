@@ -6,8 +6,9 @@ Es un archivo de texto plano en estructura aninada conforme al estándar XML y e
 * Se define mediantes etiquetas estructuradas que aportan información grafica y alfanumériaca.
 
 ### Ejemplo de GML
-            <cp:areaValue oum="m2">44804</cp:areaValue>
-            <Identifier xmlns="http://inspire.ec.europa.eu/schemas/base/3.3">
-            <localId>1907401VK4810H</localId>
-            <namespace>ES.SDGC.CP</namespace>
-            </Identifier>
+```XML <cp:areaValue oum="m2">44804</cp:areaValue>
+<Identifier xmlns="http://inspire.ec.europa.eu/schemas/base/3.3">
+<localId>1907401VK4810H</localId>
+<namespace>ES.SDGC.CP</namespace>
+</Identifier>
+```
