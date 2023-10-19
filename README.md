@@ -19,6 +19,7 @@
 * **Independencia del dispositivo**: Al ser independiente del dispositivo nos permite mostrar el contenido.
 * **Facilidad de procesamiento**: Permite el desarrollo de lenguajes especializadas según el tipo de documento que necesitemos procesar.
 * **Flexibilidad**: Posibilidad de combinación con otros lenguajes.
+* Muy **ordenados**
 ## Ejemplos y características de diferentes lenguajes de marcas
 * [XML](XML.md)
 * [HTML](HTML.md)
