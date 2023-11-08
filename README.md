@@ -1,6 +1,6 @@
 # Cuaderno lenguaje de marcas
 ## Tabla de contenidos
-* ### ¿Qué es un lenguaje de marcas?
+* ### ¿Qué es un lenguaje de marcas? 
 * ### Evolución de los lenguajes de marcas
 * ### Características de los lenguajes de marcas
 * ### Ejemplos y características de diferentes lenguajes de marcas
@@ -8,7 +8,7 @@
 
 ## ¿Qué es un lenguaje de marcas?
 * Un lenguaje de marcas, es aquel que permite representar información que contiene, además de los datos, marcas o etiquetas que indican cómo se estructuran estos datos, su significado o cómo debe representar desde un punto de vista gráfico y visual.
-![](https://universidadeuropea.com/resources/media/images/que-es-lenguaje-marca-1200x630.original.jpg)
+![](https://universidadeuropea.com/resources/media/images/que-es-lenguaje-marca-1200x630.original.jpg) 
 
 ## Evolución de los lenguajes de marcas
 * [GML](GML.md)
@@ -94,8 +94,50 @@ En una etiqueta XML puede encontrarse atributos.
     </ingredientes>
 </recetas>
 ```
+## Documento XML (Parte del tema 2)
+* ### Declaración (prólogo)
+    Es un elemento opional que se incluye al inicio del documento.
+    
+    Empezará y acabará por:
+    
+    ```<?xml y acaba por ?>```
+    y podrá contener los siguientes atributos:
+    * _Version_: Versión de XML.
+    * _encoding_: Codificación del documento.
+    * _standalone_: Indica si el documento es independiente o si existe un DTD externo. Admite valores "yes" o "no" para indicar si existe dicho vocabulario.
+
+    DTD: _Document Type Definition_: contiene las reglas que determina que un documento XML es válido.
+* ### Elementos 
+    Un documento XML se compone por una serie de elementos.
+    * Un elemento tiene un nombre que se diferencia entre mayusculas y minusculas.
+    * Comienza por ```<nombre>``` y termina por ```</nombre>```. Debe ser iguales en su apertura y cierre.
+    * Los nombres de los elementos deben caracteres alfanuméricos, guiones, guines bajos o punto (sin espacios).
+    * Debe haber un único elemento inicial llamado raíz (aunque puede llamarse como queramos).
+    * Dentro de un elemento, puede haber más elementos o texto.
+    * Si un elemento está vacío puede escribirse como ```<nombre/>```
+
+    Existen las siguientes relaciones.
+    * Un único elemento raíz (root).
+    * Cada uno de los elementos descendientes de un elemento, se llaman hijos (children).
+    * El elemento ascedente de un elemento, se llama padre (parent).
+    * Los elementos que tienen un padre común se denominan hermanos (sliblinng).
+* ### Atributos
+    Un documento xml se compone por una serie de elementos.
+    * Deben tener asignado un valor.
+    * Los valores siempre van entre comillas(simples o dobles).
+    * Diferencian entre mayúsculas y minúsculas.
+    * Comienzan por una letra o guión bajo.
+    * Los atributos siempre están 
+
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
 
 
+| Entidad |   Descripción  | Carácter |
+|:-------:|:--------------:|:--------:|
+| &li;    | Menor que      |        < |
+| &gt;    | Mayor que      |        > |
+| &amp;   | Ampersand      |        & |
+| &apos;  | Comilla simple |        ' |
+| &quot;  | Comilla doble  |        " |
