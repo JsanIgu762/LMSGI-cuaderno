@@ -127,17 +127,71 @@ En una etiqueta XML puede encontrarse atributos.
     * Los valores siempre van entre comillas(simples o dobles).
     * Diferencian entre mayúsculas y minúsculas.
     * Comienzan por una letra o guión bajo.
-    * Los atributos siempre están 
+    * Los atributos siempre están dentro de la etiqueta de apertura de un elemento.
+* ### Comentarios
+    Un comentario en XML, es un elemento, que no va a ser procesado; sirve para mostrar información al usuario para entender el contexto del documento u otra información.
 
-## Enlaces de interés 
-* [Enlace a W3C](https://www.w3.org/) 
-* [Enlace a W3C school](https://www.w3schools.com/) 
+    ```<!-- y acaba acaban por -->```
+* ### Espacios de Nombres
+    El espacio de nombres o namespace, es un identificador que se utiliza para resolver las ambigüedades que podrían surgir cuando hay dos o más elementos iguales.
 
-
-| Entidad |   Descripción  | Carácter |
+    La declaración de un espacio de nombres se realiza con el atributo xmlnes seguido por el nombre y una URL.
+```XML
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns:e="https://example.com/e/">
+    <!--Comment-->
+    <e:element1>text</e:element1>
+    <e:element2>text2</e:element>
+</root>
+```
+* ### Entidades 
+    Las entidades en XML, permiten incluir información predefinida en un documento.
+    * Pueden ser definidas en el propio DTD o que sean externas.
+    * Empiezan por & y finalizan por;
+    * Se pueden clasificar por:
+        - Generales (Forman parte del documento)
+            - Internas (Son predefinidas y mantienen su valor),
+            - Externas (Mantienen los valores en un fichero externo).
+        - Entidades de parametros (Se transforman en DTD). 
+ Existen 5 entidades generales predefinidas internas.
+            
+ | Entidad |   Descripción  | Carácter |
 |:-------:|:--------------:|:--------:|
 | &li;    | Menor que      |        < |
 | &gt;    | Mayor que      |        > |
 | &amp;   | Ampersand      |        & |
 | &apos;  | Comilla simple |        ' |
 | &quot;  | Comilla doble  |        " |
+
+* ### CDATA
+    En XML, una sección CDATA es un conjuto de caracteristicas que no debe ser tratado por el analizador, pero si formará parte de la información (a diferencia de un comentario).
+    * Comienza por ```<![CDATA[.```
+    * ```Acaba con ]]>```
+
+Ejemplo de CDATA:
+```XML
+<?XML version="1.0" encoding="utf-8" ?>
+<root xmlns:e="https://example.com/e/">
+    <!--Comment-->
+    <e:element1>text</e:element1>
+    <e:element2><![CDATA[
+        <html>
+            <head>
+            </head>
+            <body>
+                <h1>Encabezado </h1>
+            </body>
+        </html>
+        ]]>
+    </e:element2>
+</root>
+```
+
+## Validación de documentos
+
+
+## Enlaces de interés 
+* [Enlace a W3C](https://www.w3.org/) 
+* [Enlace a W3C school](https://www.w3schools.com/) 
+
+
