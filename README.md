@@ -188,7 +188,10 @@ Ejemplo de CDATA:
 ```
 
 ## Validación de documentos
+Un documento está validado, si además de estar bien formado, si está escrito conforme a las reglas definidas en su DTD o conforme un XML Schema.
 
+* [DTD](DTD.md)
+* [XML Schema](XMLSch.md)
 
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
