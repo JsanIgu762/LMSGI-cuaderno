@@ -95,3 +95,38 @@ Para definir atributos en DTD usáremos la siguiente sintaxis:
 ```XML
 <!ATTLIST nombreElemento nombreAtributo tipoAtributo "valorAtributo">
 ```
+* Pueden comenzar por guion bajo o por un carácter, además su nombre no pueden **contener espacios**.
+* Deben tener un valor, que puede ir entre comillas ya sean dobles o simples; pero se recomienda el uso de dobles.
+* Pueden ser opcionales, siempre deben de estar dentro de un elemento.
+* Siempre deben aparecer en la etiquera de apertura de un elemento; nunca en la de cierre.
+
+Ejemplo de Atributos:
+
+```XML
+<books>
+  <book isbn="11111111">
+    <title>Desarrollo Homebrew para 16 bits</title>
+    <author>V. Suarez Garcia</author>
+  </book>
+</books>  
+```
+## Ejemplo de DTD
+```XML
+<?XML version="1.0" encoding="utf-8" ?>
+<!DOCTYPE books[
+  <!ELEMENT book(title,author,year)>
+  <!ATTLIST book isbn ID #REQUIRED>
+  <!ELEMENT title(#PCDATA)>
+  <!ELEMENT author(#PCDATA)>
+  <!ELEMENT year(#PCDATA)>
+]>
+
+<books>
+  <book isbn="1111111">
+    <title>Desarrollo Hombrew para 16 bits</title>
+    <author>V.Suarez Garcia</author>
+    <year>2023</year>
+  </book>
+
+</books>
+```
