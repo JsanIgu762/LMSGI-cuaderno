@@ -193,6 +193,20 @@ Un documento está validado, si además de estar bien formado, si está escrito 
 * [DTD](DTD.md)
 * [XML Schema](XMLSch.md)
 
+## Sistemas de Gestión de Información
+Un sistema de gestión de infotmación, son esos programas informáticos, diseñados para dar soporte a cualquier de los procesos que se realizan en una empresa.
+Esto permite poder mejorar sus procesos y obtener un mayor beneficio en su actividad.
+
+
+En un sistema de gestión de Información existen:
+* Sistema de gestíon de información local 
+* Sistema de gestíon de información en la nube
+
+Hay distintos tipos de Sistemas de Gestión de Información:
+* [ERP](ERP.md)
+* [CRM](CRM.md)
+* [BI (Busine Intelligence)](BI.md)
+
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
