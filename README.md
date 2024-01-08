@@ -198,11 +198,11 @@ Un sistema de gestión de infotmación, son esos programas informáticos, diseñ
 Esto permite poder mejorar sus procesos y obtener un mayor beneficio en su actividad.
 
 
-En un sistema de gestión de Información existen:
+### En un sistema de gestión de Información existen:
 * Sistema de gestíon de información local 
 * Sistema de gestíon de información en la nube
 
-Hay distintos tipos de Sistemas de Gestión de Información:
+### Hay distintos tipos de Sistemas de Gestión de Información:
 * [ERP](ERP.md)
 * [CRM](CRM.md)
 * [BI (Busine Intelligence)](BI.md)
