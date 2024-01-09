@@ -34,7 +34,7 @@ Son sistemas diseñados como un producto modular, facilitando la escabilidad, so
 * A medida: Se trata de implementar desde cero un ERP adaptado a una empresa desde cero. Suelen ser muy costosos y bastanteds complejos de realizar por lo que requieren una gran inversión de recursos.
 
 ## Beneficios de los ERP
-Los beneficios del uso de las ERP
+Los beneficios del uso de las ERP son:
 
 * Optimiza los procesos de gestión.
 
