@@ -1,4 +1,4 @@
-# ¿Que es CRM?
+# ¿Qué es CRM?
 Un CRM (Custumer RelationShip Management) es un tipo de sitema de gestión de información especifico para atender todo lo relacionado con los clientes y la relación con la propia empresa.
 Es una herramienta fundamental en la gestíon del activo mas importante.
 
