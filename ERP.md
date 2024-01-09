@@ -8,30 +8,30 @@ ERP es considerado un producto de software que cubren una necesidad pero sin est
 Podemos definir un ERP por sus siguientes características:
 
 
-* Funcional: un ERP debe proveer soluciones para todos los procesos del negocio.
+* **Funcional**: un ERP debe proveer soluciones para todos los procesos del negocio.
 
-* Modular: Los módulos se deben de poder integrar de manera opcional e independiente.
+* **Modular**: Los módulos se deben de poder integrar de manera opcional e independiente.
 
-* Centralizado: La base de datos debe ser única y los datos no han de estar replicados en múltiples fuentes.
+* **Centralizado**: La base de datos debe ser única y los datos no han de estar replicados en múltiples fuentes.
 
-* Robusto: Debe incorporar mecanismos que garanticen la fialidad de los datos.
+* **Robusto**: Debe incorporar mecanismos que garanticen la fialidad de los datos.
 
-* Seguro: Tiene que incorporar mecanismos que garanticen que el acceso a la información solo se va a permitir a las personas adecuadas.
+* **Seguro**: Tiene que incorporar mecanismos que garanticen que el acceso a la información solo se va a permitir a las personas adecuadas.
 
 
-* Mantenible: El sistema debe poder mantenerse, mejorarse y ampliarse.
+* **Mantenible**: El sistema debe poder mantenerse, mejorarse y ampliarse.
 Es imporatante que sea solvente y fiable.
 
 
-* Adaptable: Los ERP son soluciones genéricas, construidas como productos lo suficiente flexible como para poder ser integrados en casi cualquier compañia.
+* **Adaptable**: Los ERP son soluciones genéricas, construidas como productos lo suficiente flexible como para poder ser integrados en casi cualquier compañia.
 ## Tipos de ERP
 Depende de su adaptibilidad o forma de implementación:
-* Genéricos:
+* **Genéricos**:
 Son sistemas diseñados como un producto modular, facilitando la escabilidad, son poco adaptables al ser muy genéricos, ademas de ser mas económicos.
 
-* Configurables: El núcleo del sistema esta basado en diferentes parámetos. Este proceso de adaptación y configuración suelen ser bastantes complejos y costosos.
+* **Configurables**: El núcleo del sistema esta basado en diferentes parámetos. Este proceso de adaptación y configuración suelen ser bastantes complejos y costosos.
 
-* A medida: Se trata de implementar desde cero un ERP adaptado a una empresa desde cero. Suelen ser muy costosos y bastanteds complejos de realizar por lo que requieren una gran inversión de recursos.
+* **A medida**: Se trata de implementar desde cero un ERP adaptado a una empresa desde cero. Suelen ser muy costosos y bastanteds complejos de realizar por lo que requieren una gran inversión de recursos.
 
 ## Beneficios de los ERP
 Los beneficios del uso de las ERP son:
