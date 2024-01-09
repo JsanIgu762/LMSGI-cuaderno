@@ -16,6 +16,13 @@ Podemos definir los CRM  por sus siguientes características:
 ## Beneficios de los CRM
 Los beneficios de usar los CRM son:
 
-* **Facilitan la toma de decisiones**
-* **Incrementan las oportunidades de venta**
-* **Ayudan en el proceso de mejora continua.**
+* **Facilitan la toma de decisiones**: Al tener los datos de los clientes en un único punto permite mejorar la toma de decisiones. 
+* **Incrementan las oportunidades de venta**: Al conocer más sobre los clientes, es más sencillo acertar al ofrecerles nuevos productos o servicios.
+* **Ayudan en el proceso de mejora continua.**: Los datos relativos a la satisfacción de clientes junto a las posibles incidencias, permite detectar los puntos débiles de las empresas.
+
+## Ejemplos de CRM
+* Salesforce.
+* Microsft Dynamics 365 CRM (Microsoft).
+* Zoho CRM.
+* SAP Customer Experience.
+* Oracle Custumer Experience.
