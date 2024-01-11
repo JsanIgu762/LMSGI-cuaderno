@@ -5,6 +5,7 @@
 * ### Características de los lenguajes de marcas
 * ### Ejemplos y características de diferentes lenguajes de marcas
 * ### XML: definición y caracteristicas del metalenguaje
+* ### Sistemas de Gestión de Información
 
 ## ¿Qué es un lenguaje de marcas?
 * Un lenguaje de marcas, es aquel que permite representar información que contiene, además de los datos, marcas o etiquetas que indican cómo se estructuran estos datos, su significado o cómo debe representar desde un punto de vista gráfico y visual.
