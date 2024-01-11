@@ -6,7 +6,7 @@
 * ### [Ejemplos y características de diferentes lenguajes de marcas](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#ejemplos-y-caracter%C3%ADsticas-de-diferentes-lenguajes-de-marcas-1)
 * ### [XML: definición y caracteristicas del metalenguaje](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#xml-definici%C3%B3n-y-caracteristicas-del-metalenguaje-1)
 * ### [Documento XML](documento-xml-parte-del-tema-2)
-* ### [Sistemas de Gestión de Información](sistemas-de-gestión-de-información-1)
+* ### [Sistemas de Gestión de Información](#sistemas-de-gestión-de-información-1)
 
 ## ¿Qué es un lenguaje de marcas?
 * Un lenguaje de marcas, es aquel que permite representar información que contiene, además de los datos, marcas o etiquetas que indican cómo se estructuran estos datos, su significado o cómo debe representar desde un punto de vista gráfico y visual.
