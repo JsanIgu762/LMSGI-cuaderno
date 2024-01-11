@@ -1,11 +1,11 @@
 # Cuaderno lenguaje de marcas
 ## Tabla de contenidos
-* ### [¿Qué es un lenguaje de marcas?](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#qu%C3%A9-es-un-lenguaje-de-marcas-1) 
-* ### [Evolución de los lenguajes de marcas](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#evoluci%C3%B3n-de-los-lenguajes-de-marcas-1)
-* ### [Características de los lenguajes de marcas](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#caracter%C3%ADsticas-de-los-lenguajes-de-marcas-1)
-* ### [Ejemplos y características de diferentes lenguajes de marcas](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#ejemplos-y-caracter%C3%ADsticas-de-diferentes-lenguajes-de-marcas-1)
-* ### [XML: definición y caracteristicas del metalenguaje](https://github.com/JsanIgu762/LMSGI-cuaderno?tab=readme-ov-file#xml-definici%C3%B3n-y-caracteristicas-del-metalenguaje-1)
-* ### [Documento XML](documento-xml-parte-del-tema-2)
+* ### [¿Qué es un lenguaje de marcas?](#qué-es-un-lenguaje-de-marcas-1) 
+* ### [Evolución de los lenguajes de marcas](#evolución-de-los-lenguajes-de-marcas-1)
+* ### [Características de los lenguajes de marcas](#características-de-los-lenguajes-de-marcas-1)
+* ### [Ejemplos y características de diferentes lenguajes de marcas](#ejemplos-y-características-de-diferentes-lenguajes-de-marcas-1)
+* ### [XML: definición y caracteristicas del metalenguaje](#xml-definición-y-caracteristicas-del-metalenguaje-1)
+* ### [Documento XML](#documento-xml-parte-del-tema-2)
 * ### [Sistemas de Gestión de Información](#sistemas-de-gestión-de-información-1)
 
 ## ¿Qué es un lenguaje de marcas?
