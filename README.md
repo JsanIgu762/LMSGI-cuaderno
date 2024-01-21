@@ -168,7 +168,7 @@ En una etiqueta XML puede encontrarse atributos.
 * ### CDATA
     En XML, una sección CDATA es un conjuto de caracteristicas que no debe ser tratado por el analizador, pero si formará parte de la información (a diferencia de un comentario).
     * Comienza por ```<![CDATA[.```
-    * ```Acaba con ]]>```
+    * Acaba con ``` ]]>```
 
 Ejemplo de CDATA:
 ```XML
@@ -212,5 +212,4 @@ Esto permite poder mejorar sus procesos y obtener un mayor beneficio en su activ
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
-
 
