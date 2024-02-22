@@ -209,6 +209,30 @@ Esto permite poder mejorar sus procesos y obtener un mayor beneficio en su activ
 * [CRM](CRM.md)
 * [BI (Busine Intelligence)](BI.md)
 
+## HTML
+### HTML y su evolución
+HTML fe diseñado inicialmente en el año 1991 como parte del CERN, ha tenido varias versiones y diferentes implementaciones;
+
+ | año |   Versión  | Observaciones |
+|:-------:|:--------------:|:--------:|
+| 1991    | Diseño inicial  |Incluye 18 etiquetas se considera dialecto SGML.|
+| 1992    | HTML 1.1      |Primer Borrador|
+| 1995   | HTML 2.0      |Recomendación W3C|
+| 1997  | HTML 3.2 |Recomendación W3C|
+| 1997  | HTML 4.0  |Recomendación W3C|
+| 1999  | HTML 4.1  |Recomendación W3C|
+| 2000    | XHTML     |Publicado como  recomendación del W3C. Tiene como objetivo sustituir a HTML pero se desarrolló el estándar HTML 5 por otro lado.|
+| 2014   | HTML 5.0      |Recomendación W3C|
+| 2016  | HTML 5.1 |Recomendación W3C|
+| 2017  | HTML 5.2 |Recomendación W3C|
+## XHTML
+XHTML es un estándar que extiende HTML con las propias caracterísitcas del metalenguaje XML. Por ello, sigue las mismas reglas del mismo a diferencia de HTML.
+
+Tiene una estructura similar al propio HTML pero con algunas diferencias:
+* Las etiquetas deben estar bien anidadas.
+* Todas las etiquetas deben estar cerradas.
+* Todas las etiquetas y atibutos van en minúscula.
+
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
