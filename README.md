@@ -232,6 +232,58 @@ Tiene una estructura similar al propio HTML pero con algunas diferencias:
 * Las etiquetas deben estar bien anidadas.
 * Todas las etiquetas deben estar cerradas.
 * Todas las etiquetas y atibutos van en minúscula.
+* No puede haber texto sin estar dentro de una etiqueta.
+* Los scripts y estilos deben ir dentro de un CDATA.
+
+# HTML
+## Estructura de HTML 
+Veamos la estructura de un documento HTML: 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv='X-UA-Compatible'
+content='IE=edge'>
+ <title>Page Title</title>
+ <meta name='viewport'
+content='width=device-width,
+initial-scale=1' >
+ <link rel='stylesheet' type='text/css'
+media='screen' href='main.css'>
+ <script src='main.js'></script>
+</head>
+<body>
+
+</body>
+</html>
+```
+Podemos Observar:
+* Doctype para validar el documento.
+* Cabecera.
+* Cuerpo.
+* Etiquetas tanto de apertura como de cierre.
+
+### Cabecera HTML
+**Title**
+Indica el título de la página; esto es importante para informar al usuario de que contenido tiene y visualizarlo en el navegador. Esta etiqueta es Opcional.
+```HTML
+<html>
+    <head>
+        <title> Mi página </title>
+    <head>
+</html>
+```
+**Meta 1**
+* charset: Codificación del juego de caracteres. Por ejemplo UTF-8.
+* http-equiv: Especifica una directiva. Lo veremos en la siguiente diapositiva.
+* name: Nombre del metadato.
+* content: Valor asociado a atributos como name y http-equiv; depende del nombra del atributo.
+* Content-Type: Indica el tipo de contenido, y el juego de caracteres.
+* Cache-control: Especifica cómo ha de gestionar el navegador la caché de la web.
+* refresh: Indica al navegador que pasado un tiempo ha de refrescar la página.
+* robots: Indica al nave
+
 
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
