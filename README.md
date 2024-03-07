@@ -264,7 +264,7 @@ Podemos Observar:
 * Cuerpo.
 * Etiquetas tanto de apertura como de cierre.
 
-### Cabecera HTML
+## Cabecera HTML
 **Title**
 Indica el título de la página; esto es importante para informar al usuario de que contenido tiene y visualizarlo en el navegador. Esta etiqueta es Opcional.
 ```HTML
@@ -274,18 +274,332 @@ Indica el título de la página; esto es importante para informar al usuario de 
     <head>
 </html>
 ```
-**Meta 1**
-* charset: Codificación del juego de caracteres. Por ejemplo UTF-8.
-* http-equiv: Especifica una directiva. Lo veremos en la siguiente diapositiva.
-* name: Nombre del metadato.
-* content: Valor asociado a atributos como name y http-equiv; depende del nombra del atributo.
-* Content-Type: Indica el tipo de contenido, y el juego de caracteres.
-* Cache-control: Especifica cómo ha de gestionar el navegador la caché de la web.
-* refresh: Indica al navegador que pasado un tiempo ha de refrescar la página.
-* robots: Indica al nave
+* ### Meta
+    * charset: Codificación del juego de caracteres. Por ejemplo UTF-8.
+    * http-equiv: Especifica una directiva. Lo veremos en la siguiente diapositiva.
+    * name: Nombre del metadato.
+    * content: Valor asociado a atributos como name y http-equiv; depende del nombra del atributo.
+    * Content-Type: Indica el tipo de contenido, y el juego de caracteres.
+    * Cache-control: Especifica cómo ha de gestionar el navegador la caché de la web.
+    * refresh: Indica al navegador que pasado un tiempo ha de refrescar la página.
+    * robots: Indica a los motores de búsqueda donde se encuentra el fichero robots.txt o que páginas no deben ser indexadas.
+    * Keywords: Indica a los motores de búsqueda las palabras clave de la pagina.
+    * author: Indica el autor de la página.
+    * copyright: Indica el propietario de los derechos de la web.
+    * ViewPort: Indica el ancho de la zona a representar de la página.
+* ### Style
+Esta etiqueta permite establecer el estilo utilizando el lenguaje de marcado CSS.
+```HTML
+<html>
+    <head>
+        <style>
+            p { font-size: 5em;}
+        </style>
+    </head>
+</html>
+```
+* ### Link
+Esta etiqueta permite establecer una relación con un elemento externo
+```HTML
+<html>
+    <head>
+        <style>
+            <link href="style.css" rel="stylesheet"/>
+        </style>
+    </head>
+</html>
+```
 
+Donde:
+* href: Indica la dirección del recurso externo.
+* rel: Indica la relación del recurso externo con el documento.
 
+* ### Script
+Permite añadir un Script de código ejecutable, como puede ser JavaScript.
+Puede contener el código o referenciar un recurso externo.
+```HTML
+<html>
+    <head>
+        <script> alert("hola"); </script>
+    </head>
+</html>
+
+<script src="js/main.js"/>
+```
+
+## Cuerpo HTML
+Uno de los elementos principales de HTML es el cuerpo o body, es donde se mostrarán todos los datos que serán representados al usuario.
+```HTML
+<html>
+    <head><title>Mi pagina</title></head>
+    <body>
+        <!-- Elementos a representar -->
+    </body>
+</html>
+```
+Dentro del cuerpo de HTML podemos encontrar dos tipos de etiquetas o elementos:
+* Elementos de Bloque: Ocupan todo el espacio de su elemento padre(contenedor) y salvo excepciones permiten contener otros elementos.
+* Elementos de línea: Ocupan sólo el espacio que ocupan su contenido, contienen datos u otros elementos de línea.
+### Elementos de bloque
+Otro de los elementos que podemos encontrar en el cuerpo de un documento HTML, son los elementos de bloque.
+* [Elementos de Bloque](ElementoBloque.md)
+### Elementos de Línea
+Los elementos de línea son aquellos que solo ocupan el espacio del propio contenido, independiente del contenedor.
+* [Elementos de Línea](ElementoLinea.md)
+### Listas, Tablas y Formularios
+
+* [Listas, Tablas y Formularios](ListasTablasYFormularios.md)
+### Elementos multimedia
+Una de las principales mejoras que trae HTML5, es que se han
+añadido diferentes elementos para trabajar con información multimedia; de tal
+forma que la web sea más interactiva.
+* [Elementos multimedia](ElementosMultimedia.md)
+
+## CSS
+Normalmente, además de HTML se utiliza otro lenguaje de marcas que ya hemos
+mencionado anteriormente como CSS (Cascade Style Sheets).
+
+CSS permite añadir estilo a un documento web para poder mejorar la presentación de la información.
+
+CSS es mantenido por la W3C al igual que HTML y XML. Comenzó en 1996 y hoy en día es indespensable para cualquier página web.
+
+| año |   Versión  | Descripción |
+|:-------:|:--------------:|:--------:|
+| 1996    | CSS1  |El W3C ya no soporta esta versión|
+| 1998    | CSS2      |El W3C ya no soporta esta versión|
+| 2011   |  CSS2.2      |Correción de errores de CSS2|
+| 2012  | CSS3 |Esta gestión la divide en módulos. Por lo que no hay fecha de cambio.|
+
+La sintaxis de CSS se divide en:
+* Selectores: Herramientas que permiten seleccionar el elemento o elementos
+sobre los que aplicar reglas.
+* Declaraciones: Son las reglas para aplicar estilos a los distintos elementos, normalmente tienen una estructura clave valor.
+* Comentarios: Se aplican entre los caracteres /* */.
+
+Ejemplo de CSS:
+```CSS
+body{
+ color: green;
+}
+```
+### Agregar CSS
+Para añadir CSS a un documento HTML, podemos hacerlo de las siguientes formas:
+1. Como Documento externo usando una etiqueta link.
+
+```<link rel=”stylesheet” href=”estilos.css” >```
+
+2. Como elemento style dentro de la cabecera del documento.
+
+```<style>…</style>```
+
+3. Como elemento en línea usando el atributo style.
+
+```<p style=”color:white”>...</p>```
+
+### Prioridad al usar CSS
+Cuando hay una o varias reglas que se superponen en diferentes elementos se
+aplican las siguientes prioridades que se aplican en cascada:
+* Origen e importancia: Primero se tienen en cuenta los estilos propios por
+encima de los del propio navegador.
+* Nivel de especificidad: Contra más específico más importante.
+* Orden de aparición: Los últimos estilos en leerse tienen más prioridad.
+
+Además, podemos establecer la máxima prioridad utilizando el modificador
+```!important```.
+
+También se pueden establecer una serie de valores para cada regla, para
+reestablecer la prioridad:
+* inherit: Activa la herencia, haciendo que la propiedad sea asignada con el
+valor heredado del elemento padre.
+* initial: El valor tomado será el valor por defecto.
+* unset: Reestablece el valor a su valor natural.
+* revert: Reestablece el valor de la propiedad al valor que habría tenido si no se hiciese cambio.
+### Tipos de Datos y Unidades
+En CSS podemos encontrar los siguientes tipos de datos:
+* Entero: Números enteros positivos y negativos.
+* Número: número decimal.
+* Dimensión: un número con con una dimensión asociada; puede ser deg
+(grados), s(segundos) o px(píxeles).
+* Porcentaje: Indica un porcentaje o fracción se indica con el símbolo %.
+* Colores: indican un color que puede ser uno predeterminado (green, red,
+white…) valor RGB (rgba(22,33,11,20)), hexadecimal (#112233) o HSL (Hue
+Saturation Lightness) (hsl(0,100%,50%)).
+
+Por otro lado, existen diferentes Unidades que pueden clasificarse en Absolutas o relativas.
+
+Unidades Absolutas:
+* px: píxeles.
+* cm: centímetro.
+* mm: milímetro.
+* Q: Cuarto de milímetro.
+* in: Pulgada
+* pt: Puntos (1/72 in).
+* pc: Picas (1/16 in).
+
+Unidades Relativas:
+* em: Tamaño letra del padre.
+* ex: Altura de la fuente del elemento.
+* ch: Ancho del carácter.
+* rem: Tamaño de letra del elemento Raíz.
+* lh: Altura de la línea del elemento.
+* vw: 1% del ancho de ventana gráfica.
+* vh: 1% del alto de la ventana gráfica.
+* vmin: 1% de la dimensión más pequeña de la ventana gráfica.
+* vmax: 1% de la dimensión más grande de la ventana gráfica.
+### Selectores
+Como hemos comentado, un selector no es más que una regla para seleccionar
+uno o varios elementos que modificarán sus reglas; podemos dividirlos en los
+siguientes tipos:
+* Universal: selecciona todos los elementos; ejemplo: *
+* Tipo: Tipo de elemento: ejemplo: h1.
+* Clase: elementos de una determinada clase: .clase.
+* Identificador: elemento con un identificador en concreto; ejemplo:
+#elemento.
+* Atributo: elemento con un atributo en concreto; por ejemplo:
+input[type=”submit”].
+
+También podemos realizar combinaciones o agrupaciones:
+* Agrupación: aplicará las reglas a todos esos elementos o clases; ejemplo:
+h1,h2,h3.
+* Combinación: indica que sólo aplicará a la combinación de varios elementos;
+podemos clasificarlos en los siguientes casos:
+    * Hermanos: Elemento hermano a otro; ejemplo: A~B.
+    * Hijos: Elemento Hijo a otro; ejemplo: A>B.
+    * Hermanos adyacentes: Elemento hermano a otro pero adyacente; ejemplo: A+B.
+    * Descendientes: Elemento descendente;Ejemplo A B.
+### Pseudoclases
+Una pseudoclase es un modificador que se añade a un selector para que solo se
+aplique cuando dicho elemento pase a un estado específico, normalmente se
+establece con la siguiente sintaxis:
+
+```CSS
+selector:pseudoclase{
+color: white;
+}
+```
+Algunas de las pseudoclases son:
+* active: cuando el elemento está activo.
+* checked: cuando un checkbox está activo.
+* disabled: cuando el elemento está deshabilitado.
+* focus: Cuando el elemento tiene el foco.
+* hover: Cuando el ratón pasa por encima.
+* visited: Cuando el enlace apunta a una dirección ya visitada
+anteriormente.
+
+### Pseudoelementos
+Un Pseudoelemento se añade a un selector para establecer el estilo de parte de dicho elemento; por ejemplo la primera letra o palabra; Los pseudoelementos
+pueden ser:
+* after: Permite añadir contenido después del elemento.
+* before: Permite añadir contenido antes del elemento.
+* first-letter: Primera letra del primer bloque de texto.
+* first-line: Primera línea del primer bloque de texto.
+* selection: Modificar el estilo cuando hay parte del contenido
+seleccionado.
+### Propiedades CSS
+Una vez hemos visto los distintos selectores, vamos a ver algunas de las reglas más importantes de CSS.
+
+Comenzaremos con ver las dimensiones del modelo de cajas. Algunas de las características son:
+* Margen exterior: espacio circundante con otros elementos; se establece con la propiedadmargin.
+* Margen Interior: espacio interior vacío que se agrega al elemento; se establece con la propiedad padding.
+* Borde: Espacio que tiene distintos rellenos y diferentes colores; se establece con la propiedad border; aunque tiene diferentes variantes.
+* Contorno: Se dibuja encima del elemento sin ocupar espacio; se establece con la propiedad outline.
+* Ancho: ancho del elemento; se establece con la propiedad width.
+* Alto: Alto del elemento: se establece con la propiedad height.
+
+### Modelos de cajas
+![Alt text](1cc44a6e53e6405796eddd976b77fe04.png)
+### Display
+Una de las propiedades más importantes es display; que permite establecer cómo se
+mostrarán los elementos; algunos de los valores que permite son:
+* **block**: indica que se mostrará como un bloque (ocupando todo el espacio
+disponible).
+* **inline**: Indica que se mostrará en línea (ocupando solo su contenido).
+* **flex**: Se mostrará como un bloque pero establece el modelo denominado flexbox;
+estableciendo una dirección por la que fluye. Se utiliza la propiedad
+flex-direction, para ver en qué dirección fluirá
+* **grid**: Se mostrará como bloque pero establece una cuadrícula. Se utiliza la propiedad
+grid-template-columns para establecer la cuadrícula y sus dimensiones.
+### Flex
+```CSS
+.container-flex{
+    display: flex;
+    flex-direction: column;
+}
+.container-flex div{
+    padding: 5px;
+    margin: 5px;
+}
+.container-flex p{
+    text-align: center;
+}
+```
+### Grid
+```CSS
+.container-flex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container-flex div{
+    padding: 5px;
+    margin: 5px;
+}
+.container-flex p{
+    text-align: center;
+}
+```
+### Float
+Se puede establecer el comportamiento de dónde aparecerán los elementos y su
+contenido con la propiedad float. 
+
+Tiene los siguientes valores:
+* left: empuja al elemento a la izquierda.
+* right: empuja al elemento a la derecha.
+* none: no empuja al elemento.
+* inherit: hereda el valor de la propiedad float del elemento padre.
+
+### Position
+También es importante ver que la posición de un elemento pueda ser dependiendo
+de su contenedor o por el mismo con la propiedad position. 
+
+Tiene los siguientes valores:
+* static: valor por defecto; se posiciona siguiendo el flujo normal.
+* relative: Permite establecer su posición de forma relativa al anterior elemento.
+* absolute: Establece la posición absoluta con respecto al documento.
+* fixed: El elemento deja de seguir el flujo normal del documento.
+* Sticky: EL elemento se posiciona siguiendo el flujo normal y se pueden
+establecer la posición límite con su contenedor.
+
+### Propiedades de texto
+Podemos establecer una serie de propiedades para dar formato al texto:
+* color: color del texto.
+* font-family: el tipo de letra; se establece como una lista con prioridad.
+* font-size: Tamaño del texto.
+* font-weight: Determina el grosor del trazo.
+* text-align: Determina la alineación del texto; tiene los valores: left,
+right, center y justify.
+* letter-spacing: espacio entre letras.
+### Propiedades de lista
+Algunas de las propiedades que podemos establecer las listas son:
+* list-style-type: Indica el tipo de viñeta a utilizar; tiene los valores: disc,
+circle, square, decimal, lower-roman, upper-roman,
+lower-greek, lower-latin, lower-latin y none.
+* list-style-position: establece la posición de las viñetas; puede ser
+inside u outside.
+* list-style-image: Establece una viñeta como una imagen pasando una
+URL.
+### Diseño adaptativo o Responsive
+Hoy en día existen muchos dispositivos capaces de navegar por la web, desde ordenadores, tablets, dispositivos móviles e incluso ya gafas de realidad aumentada.
+
+Es por ello que se necesita adaptar el CSS para cada pantalla; por lo que se utilizan las llamadas media
+queries, que permiten seleccionar una serie de reglas dependiendo del tamaño de la pantalla.
+
+```CSS
+@media screen and (min-width: 480px) {
+ body {
+ background-color: lightgreen;
+ }
+}
+```
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
-
