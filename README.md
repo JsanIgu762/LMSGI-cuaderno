@@ -356,7 +356,7 @@ añadido diferentes elementos para trabajar con información multimedia; de tal
 forma que la web sea más interactiva.
 * [Elementos multimedia](ElementosMultimedia.md)
 
-## CSS
+# CSS
 Normalmente, además de HTML se utiliza otro lenguaje de marcas que ya hemos
 mencionado anteriormente como CSS (Cascade Style Sheets).
 
@@ -601,7 +601,15 @@ queries, que permiten seleccionar una serie de reglas dependiendo del tamaño de
  }
 }
 ```
+# Sindicación de contenidos web
+Dado a que hay muchisima información y no es facil dar a conocer nuestro contenido.
+Por ello se pueden utilizar herramientas de sindicación de contenidos para poder difundir esta información.
+## Sindicación de contenidos
+Los sistemas de redifusión web o sindicación web permite liberar de trabajo a los usuarios al proporcionar un mecanismo de suscripción con el cual la información llega a los usuarios en vez de tener que buscarla.
 
+Algunos de estos sistemas se basan en canales de redifusión llamados **fuente web, canal web o web feed**.
+
+Una fuente web es un documento 
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
