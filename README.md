@@ -209,6 +209,7 @@ Esto permite poder mejorar sus procesos y obtener un mayor beneficio en su activ
 * [CRM](CRM.md)
 * [BI (Busine Intelligence)](BI.md)
 
+
 ## HTML
 ### HTML y su evolución
 HTML fe diseñado inicialmente en el año 1991 como parte del CERN, ha tenido varias versiones y diferentes implementaciones;
@@ -600,6 +601,9 @@ queries, que permiten seleccionar una serie de reglas dependiendo del tamaño de
  }
 }
 ```
+
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
+
+
