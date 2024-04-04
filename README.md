@@ -7,7 +7,7 @@
 * ### [XML: definición y caracteristicas del metalenguaje](#xml-definición-y-caracteristicas-del-metalenguaje-1)
 * ### [Documento XML](#documento-xml-parte-del-tema-2)
 * ### [Sistemas de Gestión de Información](#sistemas-de-gestión-de-información-1)
-* ### [Sindicación de contenidos web](#sindicación-de-contenidos-web)
+* ### [Sindicación de contenidos web](#sindicación-de-contenidos-web-1)
 
 ## ¿Qué es un lenguaje de marcas?
 * Un lenguaje de marcas, es aquel que permite representar información que contiene, además de los datos, marcas o etiquetas que indican cómo se estructuran estos datos, su significado o cómo debe representar desde un punto de vista gráfico y visual.
