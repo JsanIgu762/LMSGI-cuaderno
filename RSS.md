@@ -1,4 +1,5 @@
 # RSS
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/1200px-Feed-icon.svg.png)
 ## ¿Que es RSS?
 Es un dialecto XML, que permite distribuir contenidos a través de la web,
 Está mantenido por la W3C.
@@ -29,3 +30,21 @@ Además de estos elementos, podemos encontrar una o más entradas definidas con 
 |```<pubDate>```  | Fecha de publicación en formato RFC-822 |
 |```<comments>```  | Contiene la URL con los comentarios de la entrada  |
 |```<author>```  | Dirección electrónica (email) del autor.  |
+
+```XML
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <title>W3Schools Home Page</title>
+    <link>htpps://www.w3schools.com</link>
+    <description>Free web building tutorials</description>
+    <item>
+        <title>RSS Tutorial</title>
+        <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+        <description>New RSS tutorial on W3Schools</description>
+    </item>
+</channel>
+
+</rss>
+```
