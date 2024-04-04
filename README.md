@@ -612,7 +612,8 @@ Algunos de estos sistemas se basan en canales de redifusión llamados **fuente w
 Una fuente web es un documento que contiene información básica sobre elementos de información incluyendo referencias para acceder a estos elementos.
 
 Existen varios formatos, como pueden ser **Atom** o **RSS**.
-[RSS](RSS.md)
+
+* [RSS](RSS.md)
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
