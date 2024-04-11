@@ -616,6 +616,30 @@ Existen varios formatos, como pueden ser **Atom** o **RSS**.
 
 * [RSS](RSS.md)
 * [Atom](Atom.md)
+
+## Validar Canales
+Se pueden utilizar validadores para ver si realmente nuestro canal de sindicación funciona correctamente, como por ejemplo el ofrecido por la w3c:
+![alt text](image.png)
+
+## Añadir a una web
+Los ficheros RSS o Atom, pueden ser añadidos a una web HTML, usando un enlace ```<a>``` como si de un fichero se tratara.
+Aunque existe otra manera, y es mendiante la etiqueta ```<link>``` en la cabecera ```<head>```.
+```HTML
+<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+```
+## Herramientas de lectura de sindicación
+Podemos encontrar muchas aplicaciones que son capaces de leer este tipo de formato, tanto locales como en línea.
+Estas aplicaciones se llaman **agregadores de contenido**:
+    
+1. *Agregadores de contenido locales*: NewsFox,RSSOwl.
+2. *Agregadores de contenido en línea*: Feedly, The Old Reader.
+3. *Agregadores de contenido como extensíon*, esos se añaden como extension o plugins del navegador
+
+## Canales de sindicación
+Algunos ejemplos de canales de sindicación que podemos descargar:
+* [AEMET](https://www.aemet.es/es/rss_info/avisos/esp)
+* [Marca](https://www.marca.com/rss.html)
+* [DGT](https://revista.dgt.es/es/rss/)
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
