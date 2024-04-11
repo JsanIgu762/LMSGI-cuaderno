@@ -31,6 +31,8 @@ Además de estos elementos, podemos encontrar una o más entradas definidas con 
 |```<comments>```  | Contiene la URL con los comentarios de la entrada  |
 |```<author>```  | Dirección electrónica (email) del autor.  |
 
+
+## Ejemplo de RSS
 ```XML
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
