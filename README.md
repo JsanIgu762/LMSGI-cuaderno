@@ -621,6 +621,8 @@ Existen varios formatos, como pueden ser **Atom** o **RSS**.
 Se pueden utilizar validadores para ver si realmente nuestro canal de sindicación funciona correctamente, como por ejemplo el ofrecido por la w3c:
 ![alt text](image.png)
 
+[https://validator.w3.org/feed/#validate_by_input](https://validator.w3.org/feed/#validate_by_input)
+
 ## Añadir a una web
 Los ficheros RSS o Atom, pueden ser añadidos a una web HTML, usando un enlace ```<a>``` como si de un fichero se tratara.
 Aunque existe otra manera, y es mendiante la etiqueta ```<link>``` en la cabecera ```<head>```.
