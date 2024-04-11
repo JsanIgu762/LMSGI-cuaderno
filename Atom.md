@@ -17,7 +17,7 @@ En el  elemento feed puede contener los siguientes elementos opcionales.
  | Elemento |   Descripción  |
 |:-------:|:--------------:|
 | ```<category>```    | Categoría del canal, puede tener múltiples elementos.    |
-|```<contributor>```     |Nombre o nombres del colaborador; contiene las etiquetas ```<name>``` y opcionalmente ```<email>``` o ````<uri>```|
+|```<contributor>```     |Nombre o nombres del colaborador; contiene las etiquetas ```<name>``` y opcionalmente ```<email>``` o ```<uri>```|
 |```<generator>```   |Programa que ha generado este feed. |
 |```<rights>```  | Contiene información acerca de los derechos de propiedad del canal.|
 |```<subtitle>```  | Contiene la disposición final.  |
@@ -33,7 +33,7 @@ en el que pueden aparecer los siguientes elementos:
 |```<title>```     |Título de la entrada|
 |```<update>```   |Fecha de actualización. |
 |```<content>```  | Descripción del contenido.|
-|```<author>```  | Autor de la entrada, debe contener el elemento ```<name>``` y opcionalmente los elementos ```<email>``` o ````<URI>``` |
+|```<author>```  | Autor de la entrada, debe contener el elemento ```<name>``` y opcionalmente los elementos ```<email>``` o ```<URI>``` |
 |```<link>```  | Enlace a la entrada con el atriburo  *href* |
 |```<summary>```  | Resumen de la entrada.  |
 
