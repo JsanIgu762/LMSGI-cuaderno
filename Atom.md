@@ -60,7 +60,23 @@ en el que pueden aparecer los siguientes elementos:
     <updated>2003-12-13T18:30:02Z</updated>
 
     <entry>
-        <title></title>
+        <title>Atom-Powered Robots Run Amok</title>
+        <link href="http://example.org/2003/12/13atom03"/>
+        <link rel="alternate" type="text/html" href="http://example.org/2003/12/13/atom03/edit"/>
+        <link rel="edit" href="http://example.org/2003/12/13/atom03/edit"/>
+        <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+        <published>2003-11-09T17:23:02Z</published>
+        <updated>2003-12-13T18:30:02Z</updated>
+        <summary>Some text.</summary>
+        <content type="xhtml">
+            <div xmlns="http://wwww.w3.org/1999/xhtml">
+                <p>This is the entry content.</p>
+            </div>
+        </content>
+        <author>
+            <name>John Doe</name>
+            <email>johndoe@example.com</email>
+        </author>
     </entry>
 </feed>
 ```
