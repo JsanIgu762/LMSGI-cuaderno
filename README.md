@@ -642,6 +642,11 @@ Algunos ejemplos de canales de sindicación que podemos descargar:
 * [AEMET](https://www.aemet.es/es/rss_info/avisos/esp)
 * [Marca](https://www.marca.com/rss.html)
 * [DGT](https://revista.dgt.es/es/rss/)
+
+# Almacenamiento usando lenguajes de Marcas
+## Introducción a Python
+* [Python](Python.md)
+
 ## Enlaces de interés 
 * [Enlace a W3C](https://www.w3.org/) 
 * [Enlace a W3C school](https://www.w3schools.com/) 
