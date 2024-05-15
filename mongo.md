@@ -22,3 +22,17 @@ Mongo express es una apliación web para poder conectar y administrar una instan
 
 En esta apliación, se pueden realizar consultas e insertar documento.
 Para realizar consultas en MongoDB, se utiliza JSON, por ejemplo ```{"numero":5}``` que quiere decir que se obtienen todos los documentos que tengan el atributo "numero" igual a 5.
+
+## MongoDB Consultas
+MongoDB, tiene las siguientes operaciones para trabajar con consultas JSON.
+## PyMongo
+pymongo es un paquete para el lenguaje Python, para poder conectarse a una base de datos MongoDB.
+
+Para instalarlo, se utiliza el gestor de paquetes *pip*.
+
+```
+pip install pymongo
+```
+Con pymongo, podemos conectar a una instancia de MongoDB, con el siguiente fragmento:
+
+En este fragmento, nos conectamos a una instancia local y obtenemos tanto la base de datos y una colección.
