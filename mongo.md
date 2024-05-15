@@ -36,3 +36,24 @@ pip install pymongo
 Con pymongo, podemos conectar a una instancia de MongoDB, con el siguiente fragmento:
 
 En este fragmento, nos conectamos a una instancia local y obtenemos tanto la base de datos y una colección.
+
+### Insertar
+Para insertar en una colección, puede utilizarse la función insert_one () insertando un solo elemento (utilizando un diccionario o JSON).
+
+Por otro lado, si queremos insertar varios elementos, podemos utilizar la función insert_many() pásandole una colección en JSON o diccionarios.
+
+### Consulta 
+Se puede obtener todos los objetos de una colección, utilizando la función find() esto devolvera un cursor, que podemos recorrer con un for.
+
+```python
+result = mycol.find ()
+for n in result:
+    print(n)
+```
+También puede utilizarse un diccionario o documento en JSON como consulta:
+```python
+query = {"address": "fake street, 123"}
+result = mycol.find ()
+for n in result:
+    print(n)
+```
