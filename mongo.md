@@ -35,12 +35,27 @@ pip install pymongo
 ```
 Con pymongo, podemos conectar a una instancia de MongoDB, con el siguiente fragmento:
 
+```python
+import pymongo
+import json
+
+myclient = pymongo.MongoClient("mongodb://rootexample@localhost:27017/")
+mydb = myclient["asirdb1"]
+mycol = mydb["packages"]
+```
+
 En este fragmento, nos conectamos a una instancia local y obtenemos tanto la base de datos y una colección.
 
 ### Insertar
-Para insertar en una colección, puede utilizarse la función insert_one () insertando un solo elemento (utilizando un diccionario o JSON).
+Para insertar en una colección, puede utilizarse la función ```insert_one ()``` insertando un solo elemento (utilizando un diccionario o JSON).
 
-Por otro lado, si queremos insertar varios elementos, podemos utilizar la función insert_many() pásandole una colección en JSON o diccionarios.
+Por otro lado, si queremos insertar varios elementos, podemos utilizar la función ```insert_many()``` pásandole una colección en JSON o diccionarios.
+
+```python
+file=open('packages.json')
+j=json.load(file)
+x = mycol.insert_many(j)
+```
 
 ### Consulta 
 Se puede obtener todos los objetos de una colección, utilizando la función find() esto devolvera un cursor, que podemos recorrer con un for.
@@ -57,3 +72,13 @@ result = mycol.find ()
 for n in result:
     print(n)
 ```
+
+### Modificar o Borrar
+De igual forma, podemos modificar o borrar elementos utilizando las funciones ```update_one``` o ```delete_one``` (también está la version _many)
+
+```python
+update = {"address": "fake street, 123"}
+mycol.update_one(query, newvalues)
+#Borrar todos los elementos
+mycol.delete_many({})
+``` 
